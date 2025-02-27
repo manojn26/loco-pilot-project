@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+.header-title {
+  color: rgb(255, 255, 255);
+}
+header img {
+  height: 50px;
+  margin-left: auto;
+}
+nav {
+  background-color: #444;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+}
+.LOCATION {
+  background-color: #f3e3e3;
+  padding: 10px;
+}
+.LOCATION img {
+  height: 50px;
+  margin-left: auto;
+}
+.image-container {
+  height: 50px;
+  margin-left: auto;
+}
+section h2 {
+  color: #333;
+  margin-top: 0;
+}
+/* img{
+    max-width: 90PX;
+    height: 90PX;
+  } */
+/* img:hover{
+    transform: scale(2);
+  } */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
+.image-container {
+  height: auto;
+  display: flex;
+  /* width: auto; */
+  max-width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: lavenderblush;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+.box img {
+  justify-items: center;
+  justify-content: center;
+  max-width: 100%;
+  justify-content: center;
+  max-width: 180px;
+  height: 180px;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+.facilities {
+  background-color: black;
+}
+.h3 {
+  text-align: left;
+  padding-left: 20px;
+  color: #333;
+}
+h1 {
+  color: #2e478b8b;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h3 {
+  color: cornflowerblue;
+  font-size: 1.5em;
+  text-align: center;
+}
+h2 {
+  color: rgb(8, 105, 242);
+  text-align: center;
+}
+.vision {
+  color: purple;
+}
+.quality {
+  color: purple;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: rgb(46, 39, 39);
+  margin: 0 10%;
+  text-align: center;
+}
+span {
+  color: greenyellow;
+}
+h4 {
+  text-align: center;
+  color: gray;
+}
+.course {
+  display: flex;
+  max-width: 100%;
+}
+
+.footer-info {
+  color: white;
+}
+.info-added-location {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Dropdown */
+.dropbtn {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

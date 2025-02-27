@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refresher Driver Training</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        box-shadow: 0px 0px 10px gray;
+      }
+      h2 {
+        text-align: center;
+        background: blue;
+        color: white;
+        padding: 10px;
+      }
+      form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .form-group {
+        width: 48%;
+        margin-bottom: 15px;
+      }
+      label {
+        display: block;
+        font-weight: bold;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+      }
+      .full-width {
+        width: 100%;
+      }
+      /* .captcha {
+        text-align: center;
+        background: lightgreen;
+        padding: 10px;
+        font-weight: bold;
+        margin-top: 10px;
+      } */
+      .submit-btn {
+        width: 100%;
+        background: green;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+      }
+      .driving-license-container {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      span {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Apply Online For Re-Fresher Driver Training</h2>
+      <form>
+        <div class="form-group">
+          <label>Name: <span>*</span> </label>
+          <input type="text" placeholder="Enter Name" required />
+        </div>
+        <div class="form-group">
+          <label>Father's Name: <span>*</span> </label>
+          <input type="text" placeholder="Enter Father's Name" required />
+        </div>
+        <div class="form-group">
+          <label>Gender: <span>*</span> </label>
+          <select>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Contact Mobile Number: <span>*</span> </label>
+          <input type="text" placeholder="Enter Mobile Number" required />
+        </div>
+        <div class="form-group full-width">
+          <label>Correspondence Address: <span>*</span> </label>
+          <input type="text" placeholder="Enter Address" required />
+        </div>
+        <div class="form-group full-width">
+          <label>Do you have Driving License? <span>*</span> </label>
+          <select id="drivinglicense">
+            <option value="">Select</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div class="driving-license-container">
+          <div class="form-group-license">
+            <label>DL Number: <span>*</span> </label>
+            <input type="text" placeholder="Enter DL Number" required />
+          </div>
+          <div class="form-group-license">
+            <label>DL Issue Date: <span>*</span> </label>
+            <input type="date" required />
+          </div>
+          <div class="form-group-license">
+            <label>DL Valid Till Date: <span>*</span> </label>
+            <input type="date" required />
+          </div>
+          <div class="form-group-license">
+            <label>DL Issuing Authority <span>*</span> </label>
+            <input type="text" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Upload Passport Size Photo: <span>*</span> </label>
+          <input type="file" required />
+        </div>
+        <div class="form-group">
+          <label>Upload Aadhar Card: <span>*</span> </label>
+          <input type="file" required />
+        </div>
+        <div class="form-group full-width">
+          <input type="submit" class="submit-btn" value="Submit Data" />
+        </div>
+      </form>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
